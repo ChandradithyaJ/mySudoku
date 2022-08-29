@@ -1,0 +1,35 @@
+                                                                                 Sudoku
+
+
+This is a fun sudoku game. Sudoku is a logic-based puzzle game, where an unfilled 9x9 grid is given as a 
+question and it is to be filled with numbers 1 to 9, without any number occuring twice in any row, column
+or 3x3 mini-grid. This makes sudoku fun to play!
+
+The numbers are stored in a 2D integer array. It is called sudoku and all the empty spaces are filled with
+zeroes.
+
+We have 3 helper functions to achieve this. checkRow, checkColumn and checkBox. They check if the 
+number entered already exists in the row, column and box. This is done by checking the number against 
+every number present.
+
+These are all combined in the core function, validity, which checks if the number is valid.
+
+displayBoard is another core function we use. It prints the current sudoku board onto the terminal.
+
+findEmptyBoxes is another core function in this mini-project. Here we check for any zeroes in the sudoku
+array (which are empty spaces). If there are any zeroes, it indicates that the game isn't over. If there are 
+no zeroes, it means that game is over and that the sudoku has been solved.
+
+In the playGame variable we store if the player wants to continue playing or skip to the end. If the player 
+choooses to skip to the end, the computer solves the sudoku board and displays the answer. But more on
+that later.
+
+The best aspect of this game is that the player enters the column and row numbers from 1 to 9, instead
+of the array indices from 0 to 8. The player enters the row number, column number and number they
+wish to enter in the 1x1 box.  If the number is valid, the updated board is displayed. If it is invalid, a 
+message is displayed.
+
+If, at any point, the player wishes to exit, they must enter 0 and the computer solves the game using the
+sudokuSolver core function. It involves backtracking by trying a number in the first available empty space
+and continues if it is valid. It goes for the next number in that 1x1 box if it is invalid. If no solution is present,
+a message is displayed that no solution is possible for this board.

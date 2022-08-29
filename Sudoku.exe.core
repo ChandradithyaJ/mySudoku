@@ -1,0 +1,19 @@
+[main] Sudoku 1000 (0) exception: trapped!
+[main] Sudoku 1000 (0) exception: code 0xC0000005 at 0x4016CF
+[main] Sudoku 1000 (0) exception: ax 0x8C0 bx 0x246FDD0 cx 0x8 dx 0x246FC68
+[main] Sudoku 1000 (0) exception: si 0x401194 di 0x246FDAC bp 0x246FDB8 sp 0x246FAE0
+[main] Sudoku 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] Sudoku 1000 (0) stack: Stack trace:
+[main] Sudoku 1000 (0) stack: frame 0: sp = 0x246EE98, pc = 0x6100A2C3
+[main] Sudoku 1000 (0) stack: frame 1: sp = 0x246EED4, pc = 0x77678FB2
+[main] Sudoku 1000 (0) stack: frame 2: sp = 0x246EEF8, pc = 0x77678F84
+[main] Sudoku 1000 (0) stack: frame 3: sp = 0x246EFC0, pc = 0x776571E6
+[main] Sudoku 1000 (0) stack: frame 4: sp = 0x246FDB8, pc = 0x61004402
+[main] Sudoku 1000 (0) stack: frame 5: sp = 0x246FF3C, pc = 0x61004420
+[main] Sudoku 1000 (0) stack: frame 6: sp = 0x246FF48, pc = 0x413E4E
+[main] Sudoku 1000 (0) stack: frame 7: sp = 0x246FF58, pc = 0x40103A
+[main] Sudoku 1000 (0) stack: frame 8: sp = 0x246FF74, pc = 0x767B6739
+[main] Sudoku 1000 (0) stack: frame 9: sp = 0x246FF84, pc = 0x77648FEF
+[main] Sudoku 1000 (0) stack: frame 10: sp = 0x246FFDC, pc = 0x77648FBD
+[main] Sudoku 1000 (0) stack: frame 11: sp = 0x246FFEC, pc = 0x0
+[main] Sudoku 1000 (0) stack: End of stack trace

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\chand\onedrive\desktop\jcs c++ projects\sudoku\main.cpp
+	<iostream>
+
+1653914571 source:c:\users\chand\onedrive\desktop\jcs c++ projects\sudoku\sudoku.cpp
+	<iostream>
+	<cstring>
+	<windows.h>
+
+1654839092 source:d:\jcs c++ projects\sudoku\sudoku.cpp
+	<iostream>
+	<cstring>
+
